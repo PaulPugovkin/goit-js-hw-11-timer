@@ -5,7 +5,6 @@ export default class CountdownTimer {
     }
 
     useMarkup() {
-            const element = document.querySelector(this.selector);
             const days = document.querySelector('[data-value="days"]');
             const hours = document.querySelector('[data-value="hours"]');
             const mins = document.querySelector('[data-value="mins"]');
