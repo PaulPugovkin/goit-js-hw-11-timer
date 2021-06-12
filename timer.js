@@ -2,6 +2,7 @@ export default class CountdownTimer {
     constructor({ selector, targetDate }) {
         this.selector = selector;
         this.targetDate = targetDate;
+        this.setTimerDeadline();
     }
 
     useMarkup() {

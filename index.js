@@ -5,7 +5,7 @@ const timer = new CountdownTimer({
   targetDate: new Date('July 07, 2021'),
 });
 
-timer.setTimerDeadline();
+// timer.setTimerDeadline();
 
 
 
