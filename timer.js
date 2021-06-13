@@ -6,10 +6,12 @@ export default class CountdownTimer {
     }
 
     useMarkup() {
-            const days = document.querySelector('[data-value="days"]');
-            const hours = document.querySelector('[data-value="hours"]');
-            const mins = document.querySelector('[data-value="mins"]');
-            const secs = document.querySelector('[data-value="secs"]');
+            const selectorElement = document.querySelector(this.selector)
+
+            const days = selectorElement.querySelector('[data-value="days"]');
+            const hours = selectorElement.querySelector('[data-value="hours"]');
+            const mins = selectorElement.querySelector('[data-value="mins"]');
+            const secs = selectorElement.querySelector('[data-value="secs"]');
 
         return {days, hours, mins, secs}
     }
